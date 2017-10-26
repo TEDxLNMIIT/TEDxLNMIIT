@@ -187,3 +187,7 @@ h4,h2,h3{
     padding: 0; 
     width:70%
 }
+.carimg{
+    height:500px!important;
+    margin:auto;
+}
