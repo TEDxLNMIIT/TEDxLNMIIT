@@ -157,6 +157,9 @@ h4,h2,h3{
     }
 }
 /* #b0aac2  #b56969  #fae596  #3fb0ac  #173e43 */
+.blog .row .col-md-3{
+    height:200px;
+}
 
 /* Footer starts here*/
 #map{
@@ -188,4 +191,26 @@ h4,h2,h3{
 }
 .padding10:hover{
     color:red!important;
+}
+.subscribe input[type="email"]{
+    background: none;
+    border: none;
+    border-bottom: solid 2px red;
+    color: #5a5c51;
+    width:50%;
+}
+.subscribe input[type="submit"] {
+    font-family: Helvetica, sans-serif;
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background:white;
+    border: solid 1px #5a5c51;
+    color: #5a5c51;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.subscribe input[type="submit"]:hover {
+    background:red;
+    color: black;
 }
