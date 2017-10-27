@@ -80,7 +80,7 @@ h4,h2,h3{
 .main #myCarousel .carousel-inner .item{
     height: 250px;
 }
-/*filler PAGE starts HERE */
+/*filler PAGE starts HERE 
 .parallax {
     background-image: url('../banner2.jpg'); 
     -webkit-background-size: contain;
@@ -89,11 +89,9 @@ h4,h2,h3{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
+}*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    .parallax{
-            background-position: 81%  !important;
-    }
+    
 }
 .filler{
     margin-top:90px!important;
@@ -123,15 +121,8 @@ h4,h2,h3{
     font-size:15px;
 }
 .filler .intro .jumbotron{
-    background-color:#ebebeb;
-    margin-left:auto;
-    margin-right: auto;
-    height:auto;
-    width:70%;
+    
     margin-top:-80px;
-    border-radius: 20px;
-    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     font-family: 'Nunito', sans-serif;
     color:#5a5c51;
 }
@@ -165,7 +156,7 @@ h4,h2,h3{
         margin:auto;
     }
 }
-/* <!--------- Landing page ends here -----------------> */
+/* #b0aac2  #b56969  #fae596  #3fb0ac  #173e43 */
 
 /* Footer starts here*/
 #map{
@@ -188,6 +179,13 @@ h4,h2,h3{
     width:70%
 }
 .carimg{
-    height:500px!important;
+    height:100%!important;
     margin:auto;
+}
+.padding10{
+    padding:10px;
+    transition:all 0.3s;
+}
+.padding10:hover{
+    color:red!important;
 }
