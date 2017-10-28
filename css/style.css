@@ -156,10 +156,17 @@ h4,h2,h3{
         margin:auto;
     }
 }
-/* #b0aac2  #b56969  #fae596  #3fb0ac  #173e43 */
-.blog .row .col-md-3{
+.blogTile{
     height:200px;
+    transition: 0.3s;
 }
+.blogTile:hover{
+    transform:scale(1.5)!important;
+    transition: 0.3s!important;
+    z-index: 2;
+}
+
+/* #b0aac2  #b56969  #fae596  #3fb0ac  #173e43 */
 
 /* Footer starts here*/
 #map{
@@ -198,9 +205,11 @@ h4,h2,h3{
     border-bottom: solid 2px red;
     color: #5a5c51;
     width:50%;
+    font-size: 18px;
 }
 .subscribe input[type="submit"] {
     font-family: Helvetica, sans-serif;
+    font-size: 18px;
     margin-top: 28px;
     width: 120px;
     height: 32px;
