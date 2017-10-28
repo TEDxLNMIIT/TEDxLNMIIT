@@ -106,9 +106,26 @@ h4,h2,h3{
     width:70%;
 }
 .heading2{
-    font-family: 'Nunito', sans-serif;
-    color:red;
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    font-size:60px!important;
+}
+.whiteWork{
+    font-family: 'Work Sans', sans-serif;
+    color:white;
     font-size:30px;
+    font-weight: bold!important;
+}
+.blackWorkbold{
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    font-size:30px;
+    font-weight: bold!important;
+}
+.blackWork{
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    font-size:18px;
 }
 .details{
     font-family: Helvetica, sans-serif;
