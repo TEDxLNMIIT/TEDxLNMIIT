@@ -80,16 +80,17 @@ h4,h2,h3{
 .main #myCarousel .carousel-inner .item{
     height: 250px;
 }
-/*filler PAGE starts HERE 
 .parallax {
-    background-image: url('../banner2.jpg'); 
+    background-image: url('../banner.png'); 
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
+    background-size: 100% 90%;
+    height:500px; 
+    width:100%;
+}
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .jumbotron{
         width:65%!important;
@@ -264,16 +265,16 @@ h4,h2,h3{
 .subscribe input[type="submit"] {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
+    font-weight: bold;
     margin-top: 28px;
     width: 120px;
     height: 32px;
     background:white;
-    border: solid 1px #5a5c51;
+    border: none;
     color: #5a5c51;
     transition: 0.3s ease;
     cursor: pointer;
 }
 .subscribe input[type="submit"]:hover {
-    background:red;
-    color: black;
+    color: red;
 }
