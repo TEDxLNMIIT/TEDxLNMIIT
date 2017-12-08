@@ -4421,3 +4421,46 @@ footer.short-2 .contact-action:hover {
 .no-loader .loader {
   display: none !important;
 }
+
+/* countdown */
+.countdown{
+	text-align: center;
+	background: transparent;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.countdown h1{
+  color: black;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.411);
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: rgba(255, 0, 0, 0.6);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
