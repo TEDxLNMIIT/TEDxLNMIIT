@@ -1062,7 +1062,7 @@ header.signup:before {
 }
 @media all and (max-width: 1400px) {
   .header-overlay {
-    padding-top: 6em !important;
+    padding-top: 2em !important;
   }
   .video-wrapper video {
     width: 130%;
@@ -1070,7 +1070,7 @@ header.signup:before {
 }
 @media all and (max-width: 1200px) {
   .header-overlay {
-    padding-top: 3em !important;
+    padding-top: 1em !important;
   }
   .video-wrapper video {
     width: 150%;
@@ -1078,7 +1078,7 @@ header.signup:before {
 }
 @media all and (max-width: 1000px) {
   .header-overlay {
-    padding-top: 2em !important;
+    padding-top: 1em !important;
   }
   .video-wrapper video {
     width: 210%;
