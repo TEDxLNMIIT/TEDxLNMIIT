@@ -493,7 +493,7 @@ nav hr {
 .nav-menu {
   padding-top: 40px;
 }
-.nav-menu .social-icons {
+.nav-menu 
   float: right;
 }
 .utility-menu {
@@ -675,16 +675,7 @@ nav hr {
 .subnav-fullwidth .btn-filled:hover {
   color: #fff !important;
 }
-.overlay-bar.nav-sticky .logo-light {
-}
-.overlay-bar.nav-sticky .logo-dark {
-}
-.overlay-bar.nav-sticky .menu li a {
-}
-.overlay-bar.nav-sticky .social-icons li a {
-}
-.overlay-bar.nav-sticky .has-dropdown:after {
-}
+
 .offscreen-menu .logo {
   padding-bottom: 32px;
 }
@@ -752,7 +743,7 @@ nav hr {
 .offscreen-container .menu li a:hover {
   color: #fff !important;
 }
-.offscreen-container .social-icons {
+.offscreen-container 
   position: absolute;
   bottom: 40px;
 }
@@ -1652,11 +1643,11 @@ img.phone-portrait {
   overflow: hidden;
   display: inline-block;
 }
-.social-icons i {
+.footer-container .social-icons i {
  color:red;
  transition: 0.3s;
 }
-.social-icons i:hover {
+.footer-container .social-icons i:hover {
   color:black;
   transition: 0.3s;
  }
@@ -2178,8 +2169,12 @@ blockquote {
   display: none;
 }
 .background-img{
+  display: block;
   background:center!important;
+  width:90%!important;
   margin-top:50px;
+  margin-left:auto!important;
+  margin-right:auto!important;
 }
 @media (min-width: 768px) {
   .image-gallery .image-holder {
