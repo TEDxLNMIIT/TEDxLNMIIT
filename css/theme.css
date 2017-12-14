@@ -1652,6 +1652,14 @@ img.phone-portrait {
   overflow: hidden;
   display: inline-block;
 }
+.social-icons i {
+ color:red;
+ transition: 0.3s;
+}
+.social-icons i:hover {
+  color:black;
+  transition: 0.3s;
+ }
 .social-icons li {
   float: left;
   margin-right: 24px;
